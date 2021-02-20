@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+
+<HEAD>
+	<meta charset="utf-8">
+	<TITLE>Chapter 4 - In Class Example 2</TITLE>
+</HEAD>
+
+<BODY>
+	<h1>This form will work with string data.</h1>
+	<form id="myForm">
+		<div><label for="firstName">First Name</label><br><input type="text" name="firstName" id="firstName" required>
+		</div>
+		<div><label for="lastName">Last Name</label><br><input type="text" name="lastName" id="lastName" required></div>
+		<div><label for="nameResult">Formatted Name</label><br><input type="text" name="nameResult" id="nameResult"
+				readonly></div>
+		<hr>
+		<p>Comments are limited to 100 characters</p>
+		<div><label for="comments">Comments</label><br><textarea name="comments" id="comments" maxlength="100"
+				required></textarea></div>
+		<div><label for="commentResult">Result</label><br><textarea name="commentResult" id="commentResult"></textarea>
+		</div>
+		<div><input type="button" value="Submit" id="submitButton"></div>
+	</form>
+	<script src="Ch4-InClass-2.js"></script>
+</BODY>
+
+</HTML>
